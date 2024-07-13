@@ -1,9 +1,16 @@
 package Hard;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Regular_Expression {
     static boolean isMatch(String text, String pattern) {
         // your code goes here
+        //ArrayList<Integer>arr = new ArrayList<>(new int[]{1, 2, 3, 4, 5, 6});
+        //arr.stream().max(Integer::compareTo);
         return helper(text,pattern,0,0);
+        //int[]arr = {2,1,4,5};
+        //Arrays.stream(arr).max();
     }
 
 
